@@ -7,14 +7,6 @@
 #include "src/RessourceManager.hpp"
 #include "src/EventEngine.hpp"
 
-using namespace std;
-
-
-bool Collision(sf::IntRect& a, sf::IntRect& b)
-{
-     return a.intersects(b);                                                                                                   // b dans a
-}
-
 int main()
 {
     RessourceManager RManager;
